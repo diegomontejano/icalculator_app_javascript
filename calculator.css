@@ -1,0 +1,151 @@
+/* page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+*{
+    box-sizing: border-box; 
+    border-color: transparent;
+    width: 100%;
+    margin: 0%;
+    font-family: Roboto, Times, serif;
+    text-align: center;
+}
+
+@keyframes changeBackgroundColor {
+    0% {
+        box-shadow: 0px 0px 66px #07b68a;
+    }
+    25% {
+        box-shadow: 0px 0px 66px #07b650;
+    }
+    50% {
+        box-shadow: 0px 0px 66px #2ab607;
+    }
+    75% {
+        box-shadow: 0px 0px 66px #07b650;
+    }
+    100% {
+        box-shadow: 0px 0px 66px #07b68a;
+    }
+}
+  
+header{
+    background: #0f0f0f;
+    height: 80px;
+    padding: 22px;
+    font-size: 28px;    
+    margin-bottom: 70px;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background: #0f0f0f;
+    height: 100px;
+    padding: 40px;
+    font-size: 16px;
+}
+
+/* mobile >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#mobile{
+    background: #232a3a;
+    width: 300px;
+    height: 600px;
+    border: solid #0a0a0a 10px;
+    border-radius: 30px;
+    animation: changeBackgroundColor 12s infinite;
+    margin: 0px auto 400px ;
+}
+
+#topClock{
+    background-image: url("./files/topBar.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 13px;
+}
+
+#bottomBar{
+    background: #2e2e2e70; 
+    height: 30px; 
+    border-radius: 0px 0px 20px 20px; 
+    position: relative;
+    top: 20px;
+}
+
+.buttonHome{ 
+    display: inline-flex; 
+    background: #ffffff6b;
+    width: 100px;
+    height: 5px;
+    border-radius: 2px;
+    position: relative;
+    top: 5px;
+}
+
+.buttonHome:hover{
+    background: #ffffffc2;
+}
+
+/* calculator >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#display1{
+    background: #121824;
+    color: #07b68a;
+    outline: none;
+    height: 75px;
+    padding: 40px 10px 0px;
+    font-size: 28px;
+    text-align: end;
+}
+
+#display2{
+    background: #121824;
+    color: #07b68a;
+    outline: none;
+    height: 75px;
+    padding: 20px 10px 0px;
+    font-size: 38px;
+    text-align: end;
+}
+
+.button{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.b1{
+    background: #232a3a;
+    color: #ffffff;
+}
+
+.b1:hover{
+    background: #121824b7;
+}
+
+.b2{
+    background: #121824;
+    color: #07b68a;
+}
+
+.b2:hover{
+    background: #080d11;
+}
+
+.b3{
+    background: #07b68a;
+    color: #121824;
+    width: 124px;
+    border-radius: 30px;
+}
+
+.b3:hover{
+    background: #0ee9b2;
+}
