@@ -1,1 +1,0 @@
-# iCalculator App (JavaScript)
